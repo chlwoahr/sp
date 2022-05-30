@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>시작</h1>
-<a href="studentList.do">회원목록</a>
+<div align="center">
+<div><h1>${message }</h1></div>
+
+</div>
 </body>
 </html>
