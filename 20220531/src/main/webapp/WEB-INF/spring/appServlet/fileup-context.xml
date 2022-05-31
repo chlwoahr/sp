@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 개발할때 엑박뜨면 오류로 착각할 수 있으니 개발할때만 선언해두고 실제 운영할때는 realpath 설정해서 관리 -->
+	<bean class="java.lang.String" id="saveDir">
+		<constructor-arg value="C:\temp" />
+	</bean>
+	
+</beans>
