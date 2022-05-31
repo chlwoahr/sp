@@ -8,6 +8,8 @@
 </head>
 <body>
 <h1>시작</h1>
-<a href="studentList.do">회원목록</a>
+<a href="studentList.do">회원목록</a><p>
+<a href="studentLoginForm.do">로그인</a>
+
 </body>
 </html>
